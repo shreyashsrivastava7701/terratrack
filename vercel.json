@@ -1,0 +1,8 @@
+{
+  "functions": { "api/proxy.js": { "maxDuration": 60 } },
+  "rewrites": [
+    { "source": "/api/geo/:path*", "destination": "/api/proxy?service=geo&path=:path*" },
+    { "source": "/api/route/:path*", "destination": "/api/proxy?service=route&path=:path*" },
+    { "source": "/api/gemma/:path*", "destination": "/api/proxy?service=gemma&path=:path*" }
+  ]
+}
