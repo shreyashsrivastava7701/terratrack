@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "unit": "kg CO2e",
+  "dailyBudgetKg": 6,
+  "offsetCapShare": 0.3,
+  "baselineDefaults": {
+    "transport": "auto",
+    "food": "chicken_meal"
+  },
+  "sectors": {
+    "transport": {
+      "label": "Transport",
+      "unit": "km",
+      "benchmark": 0.1,
+      "items": {
+        "walk": 0,
+        "cycle": 0,
+        "metro": 0.03,
+        "train": 0.03,
+        "bus": 0.05,
+        "bike": 0.08,
+        "carpool": 0.085,
+        "auto": 0.1,
+        "car": 0.17,
+        "flight": 0.2,
+        "e_rickshaw": 0.03,
+        "ev_scooter": 0.02,
+        "ev_car": 0.08,
+        "shared_auto": 0.05
+      }
+    },
+    "energy": {
+      "label": "Energy",
+      "unit": "hour",
+      "benchmark": 0.5,
+      "items": {
+        "led_light": 0.01,
+        "laptop": 0.04,
+        "fan": 0.05,
+        "ac": 1.1,
+        "geyser": 1.5,
+        "tv": 0.08,
+        "desktop_pc": 0.15,
+        "iron": 0.7,
+        "room_heater": 1.4,
+        "electricity_kwh": 0.72
+      }
+    },
+    "food": {
+      "label": "Food",
+      "unit": "meal",
+      "benchmark": 1.5,
+      "items": {
+        "dal_rice": 0.7,
+        "veg_thali": 0.8,
+        "egg_meal": 1.0,
+        "paneer_meal": 1.5,
+        "chicken_meal": 2.0,
+        "mutton_meal": 5.0,
+        "beef_meal": 6.5,
+        "tea_coffee": 0.15,
+        "instant_noodles": 0.6,
+        "street_food": 0.7,
+        "veg_burger": 1.1,
+        "pizza": 1.6,
+        "fish_meal": 1.8
+      }
+    },
+    "shopping": {
+      "label": "Shopping",
+      "unit": "item",
+      "benchmark": 8,
+      "items": {
+        "online_order": 0.5,
+        "clothing_secondhand": 2,
+        "clothing_new": 10,
+        "phone_new": 60,
+        "book": 1.0,
+        "gadget_small": 10,
+        "shoes_new": 14
+      }
+    },
+    "waste": {
+      "label": "Waste",
+      "unit": "piece or 100 g",
+      "benchmark": null,
+      "items": {
+        "plastic_bag": 0.03,
+        "plastic_bottle": 0.08,
+        "food_waste_100g": 0.25,
+        "paper_cup": 0.02,
+        "takeaway_container": 0.1
+      }
+    },
+    "water": {
+      "label": "Water",
+      "unit": "use",
+      "benchmark": 0.25,
+      "items": {
+        "cold_shower": 0.02,
+        "hot_shower": 0.25,
+        "machine_wash": 0.5,
+        "bucket_bath": 0.03
+      }
+    },
+    "digital": {
+      "label": "Digital",
+      "unit": "hour",
+      "benchmark": 0.1,
+      "items": {
+        "video_call": 0.05,
+        "streaming": 0.06,
+        "gaming": 0.25,
+        "music_streaming": 0.01,
+        "social_media": 0.04
+      }
+    }
+  },
+  "eco": {
+    "label": "Eco Actions",
+    "items": {
+      "tree": {
+        "unit": "tree",
+        "type": "offset"
+      },
+      "compost": {
+        "unit": "kg",
+        "type": "credit",
+        "creditKg": 2.3
+      },
+      "own_bottle": {
+        "unit": "use",
+        "type": "credit",
+        "creditKg": 0.08
+      },
+      "own_bag": {
+        "unit": "use",
+        "type": "credit",
+        "creditKg": 0.03
+      },
+      "own_cup": {
+        "unit": "use",
+        "type": "credit",
+        "creditKg": 0.02
+      }
+    }
+  },
+  "treeSchedule": [
+    {
+      "ageYears": 1,
+      "kgPerYear": 1
+    },
+    {
+      "ageYears": 3,
+      "kgPerYear": 5
+    },
+    {
+      "ageYears": 5,
+      "kgPerYear": 12
+    },
+    {
+      "ageYears": 10,
+      "kgPerYear": 21
+    }
+  ],
+  "equivalents": {
+    "kgPerCarKm": 0.17,
+    "kgPerPhoneCharge": 0.009,
+    "kgPerTreeDay": 0.058
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "swaps": {
+    "car": {
+      "candidates": [
+        "metro",
+        "bus",
+        "carpool"
+      ],
+      "tip": "Carpool or take the metro for regular trips"
+    },
+    "flight": {
+      "candidates": [
+        "train"
+      ],
+      "tip": "Choose rail where a train route exists"
+    },
+    "ac": {
+      "candidates": [
+        "fan"
+      ],
+      "tip": "Set 26 °C and add a fan"
+    },
+    "geyser": {
+      "candidates": [],
+      "tip": "Keep hot showers short and heat water only when needed"
+    },
+    "chicken_meal": {
+      "candidates": [
+        "egg_meal",
+        "dal_rice"
+      ],
+      "tip": "Try one meat-free meal a day"
+    },
+    "mutton_meal": {
+      "candidates": [
+        "chicken_meal",
+        "dal_rice"
+      ],
+      "tip": "Keep red meat for rare occasions"
+    },
+    "beef_meal": {
+      "candidates": [
+        "chicken_meal",
+        "dal_rice"
+      ],
+      "tip": "Keep red meat for rare occasions"
+    },
+    "food_waste_100g": {
+      "candidates": [],
+      "tip": "Take half portions first; compost scraps"
+    },
+    "gaming": {
+      "candidates": [
+        "streaming"
+      ],
+      "tip": "Cap session length and switch the console off fully"
+    },
+    "machine_wash": {
+      "candidates": [],
+      "tip": "Wash full loads only"
+    },
+    "clothing_new": {
+      "candidates": [
+        "clothing_secondhand"
+      ],
+      "tip": "Try second-hand or swap with friends"
+    },
+    "phone_new": {
+      "candidates": [],
+      "tip": "Repair or keep your phone another year"
+    },
+    "room_heater": {
+      "candidates": [],
+      "tip": "Wear a layer and heat only the room you are in"
+    },
+    "iron": {
+      "candidates": [],
+      "tip": "Iron a few clothes in one go, or skip ironing casual wear"
+    },
+    "pizza": {
+      "candidates": [
+        "veg_thali",
+        "dal_rice"
+      ],
+      "tip": "Choose a veg topping and share a large one"
+    },
+    "fish_meal": {
+      "candidates": [
+        "egg_meal",
+        "dal_rice"
+      ],
+      "tip": "Mix in more plant-based meals in the week"
+    },
+    "shoes_new": {
+      "candidates": [],
+      "tip": "Repair the sole or buy one good pair that lasts"
+    },
+    "gadget_small": {
+      "candidates": [],
+      "tip": "Buy refurbished or keep your gadget longer"
+    },
+    "paper_cup": {
+      "candidates": [],
+      "tip": "Carry your own cup or ask for a kulhad"
+    },
+    "takeaway_container": {
+      "candidates": [],
+      "tip": "Eat in, or carry a steel tiffin for takeaway"
+    },
+    "plastic_bag": {
+      "candidates": [],
+      "tip": "Keep a cloth bag in your backpack"
+    },
+    "plastic_bottle": {
+      "candidates": [],
+      "tip": "Carry a refillable bottle"
+    },
+    "auto": {
+      "candidates": [
+        "metro",
+        "bus",
+        "e_rickshaw"
+      ],
+      "tip": "Share the auto or take the metro or bus for regular trips"
+    },
+    "bike": {
+      "candidates": [
+        "metro",
+        "bus",
+        "ev_scooter"
+      ],
+      "tip": "Switch to an electric scooter or public transport for daily trips"
+    },
+    "carpool": {
+      "candidates": [
+        "metro",
+        "bus"
+      ],
+      "tip": "Take the metro or bus when the route allows"
+    },
+    "ev_car": {
+      "candidates": [
+        "metro",
+        "bus"
+      ],
+      "tip": "Even electric cars beat a petrol car, but the metro beats both"
+    },
+    "paneer_meal": {
+      "candidates": [
+        "dal_rice",
+        "veg_thali"
+      ],
+      "tip": "Paneer is dairy-heavy; dal and sabzi are lighter on the planet"
+    },
+    "veg_burger": {
+      "candidates": [
+        "dal_rice",
+        "veg_thali"
+      ],
+      "tip": "Home-style meals usually beat packaged fast food"
+    },
+    "hot_shower": {
+      "candidates": [
+        "bucket_bath",
+        "cold_shower"
+      ],
+      "tip": "A bucket bath uses less hot water than a long shower"
+    },
+    "electricity_kwh": {
+      "candidates": [],
+      "tip": "Switch off at the plug, use the AC at 26 °C and pick 5-star appliances"
+    }
+  },
+  "quests": [
+    {
+      "id": "stairs",
+      "text": "Take the stairs instead of the lift"
+    },
+    {
+      "id": "no_geyser",
+      "text": "Skip the geyser today"
+    },
+    {
+      "id": "meat_free",
+      "text": "Have one meat-free meal"
+    },
+    {
+      "id": "own_bottle",
+      "text": "Carry your own bottle"
+    },
+    {
+      "id": "ac_off",
+      "text": "Switch off the AC for one hour"
+    }
+  ]
+}

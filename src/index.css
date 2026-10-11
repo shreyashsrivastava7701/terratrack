@@ -1,0 +1,64 @@
+/* index.css
+   Tailwind gives us ready-made classes (like p-4, rounded-xl).
+   The @theme block below is our "Sky & Sprout" colour and font palette.
+   Change a colour here and it changes everywhere in the app. */
+@import "tailwindcss";
+
+@theme {
+  /* Backgrounds */
+  --color-sky-page: #f7fbfd;   /* page background */
+  --color-sky-card: #e8f3f8;   /* soft blue cards */
+  --color-sky-line: #d3e5ee;   /* borders and ring track */
+
+  /* Text */
+  --color-ink: #1c3341;        /* main text */
+  --color-ink-soft: #5d7383;   /* secondary text */
+
+  /* Green brand colour */
+  --color-sprout: #23875a;
+  --color-sprout-dark: #1d6a44;
+  --color-sprout-light: #d3f0df;
+
+  /* Sunny yellow for quests and highlights */
+  --color-sun: #fff3cf;
+  --color-sun-dark: #7a5600;
+
+  /* Verdict badges: Pro / Neutral / Con */
+  --color-pro-bg: #d3f0df;
+  --color-pro-fg: #1d6a44;
+  --color-neutral-bg: #ffe9ad;
+  --color-neutral-fg: #7a5600;
+  --color-con-bg: #ffd9d2;
+  --color-con-fg: #9b2f1d;
+
+  /* Budget ring colours: under 70%, up to 100%, over budget */
+  --color-ring-green: #2f9c68;
+  --color-ring-amber: #e3a008;
+  --color-ring-red: #d24a33;
+
+  /* Fonts */
+  --font-display: "Baloo 2", system-ui, sans-serif;
+  --font-body: "Lexend", system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-sky-page);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* A visible outline when you move around with the keyboard */
+:focus-visible {
+  outline: 3px solid var(--color-sprout);
+  outline-offset: 2px;
+}
+
+/* A shared look for dropdowns and number boxes in Settings */
+.field {
+  border-radius: 0.75rem;
+  border: 1px solid var(--color-sky-line);
+  background: var(--color-sky-page);
+  padding: 0.6rem 0.8rem;
+  font-weight: 500;
+}
